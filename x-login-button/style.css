@@ -1,0 +1,49 @@
+/* Centers the button and adds space above */
+/* .button-container {
+  text-align: center;        /* Centers the button horizontally */
+/*   margin-top: 100px;         /* Adds space above the button */
+/* }
+
+/* Styles for the X login button */
+/* .x-login-btn {
+  background-color: black;   /* X (Twitter) button is black */
+/*   color: white;              /* White text for contrast */
+/*   border: none;              /* Removes the default button border */
+/*   border-radius: 25px;       /* Makes the button edges rounded */
+/*   padding: 12px 24px;        /* Adds inner spacing (top-bottom, left-right) */
+/*   font-size: 16px;           /* Increases text size slightly */
+/*   cursor: pointer;           /* Shows hand cursor when hovered */
+/* }
+
+/* Adds a hover effect for interaction feedback */
+/* .x-login-btn:hover {
+/*   background-color: #333;    /* Slightly lighter shade when hovered */
+/* }
+
+/* Centers the button and adds space above */
+.button-container {
+  text-align: center;        /* Centers the button horizontally */
+  margin-top: 100px;         /* Adds space above the button */
+}
+
+/* Styles for the X login button */
+.x-login-btn {
+  background-color: rgb(7, 136, 241); /* Base background color (dark gray/black tone) */
+  color: white;              /* White text for contrast */
+  border: none;              /* Removes the default browser button border */
+  border-radius: 25px;       /* Makes the button edges rounded */
+  padding: 12px 24px;        /* Adds inner spacing (top-bottom, left-right) */
+  font-size: 16px;           /* Sets readable text size */
+  cursor: pointer;           /* Changes the mouse cursor to a hand on hover */
+  transition: background-color 0.2s ease; /* Smoothly changes color on hover/click */
+}
+
+/* Hover effect (when the mouse is over the button) */
+.x-login-btn:hover {
+  background-color: rgb(7, 238, 199); /* Slightly brighter gray for hover state */
+}
+
+/* Active effect (when the button is clicked or held) */
+.x-login-btn:active {
+  background-color: #f35105; /* Even brighter gray when clicked */
+}

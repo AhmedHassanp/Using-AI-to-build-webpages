@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <h1>Welcome to My Website</h1>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="bars" aria-hidden="true"></span>
+          <span class="label">Menu</span>
+        </button>
+      </div>
+      <nav id="site-nav" class="nav-collapsible" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section id="home">
+      <h2>Home</h2>
+      <p>This is the home section of your website. You can introduce your site or business here with a welcoming message.</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Write something about yourself or your project here. Explain what you do and why it matters.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Include your contact details or a simple contact form here so visitors can reach you easily.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

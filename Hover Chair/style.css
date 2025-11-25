@@ -1,0 +1,73 @@
+/* Styles for the entire page */
+body {
+  margin: 0;                            /* Removes default browser margin */
+  font-family: Arial, sans-serif;        /* Sets a clean, easy-to-read font */
+  background-color: #f4f1ed;             /* Soft beige background for warmth */
+  color: #2f2e2b;                        /* Dark earthy text color for contrast */
+}
+
+/* Hero section container */
+.hero {
+  text-align: center;                    /* Centers all text horizontally */
+  padding: 100px 20px;                   /* Adds space inside the section (top/bottom, sides) */
+  color: #2f2e2b;                        /* Text color stays readable */
+  
+  /* Background image styling */
+  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80');
+  /* (This Unsplash image is a soft, blurred modern workspace background) */
+
+  background-size: cover;                /* Makes the image cover the whole area */
+  background-position: center;           /* Centers the image */
+  background-repeat: no-repeat;          /* Prevents image repetition */
+  position: relative;                    /* Needed for overlay positioning */
+
+  /* Add a light overlay for better text contrast */
+  background-color: rgba(244, 241, 237, 0.85); /* Semi-transparent beige overlay */
+  background-blend-mode: lighten;        /* Blends image with overlay color softly */
+}
+
+/* Main heading style */
+.hero-title {
+  font-size: 36px;                       /* Large text size for prominence */
+  margin-bottom: 10px;                   /* Adds space below the heading */
+}
+
+/* Subheading style */
+.hero-subtitle {
+  font-size: 24px;                       /* Medium text size for emphasis */
+  color: #5a5347;                        /* Soft brown tone for warmth */
+  margin-bottom: 20px;                   /* Adds space below the subheading */
+}
+
+/* Description paragraph style */
+.hero-description {
+  font-size: 16px;                       /* Normal readable text size */
+  max-width: 600px;                      /* Keeps text from stretching too wide */
+  margin: 0 auto 30px;                   /* Centers paragraph and adds space below */
+  line-height: 1.6;                      /* Increases spacing between lines for readability */
+  color: #3e3c38;                        /* Slightly darker text for readability */
+  background-color: rgba(255, 255, 255, 0.6); /* Faint background behind text for clarity */
+  padding: 10px;                         /* Adds a little space inside the text box */
+  border-radius: 8px;                    /* Soft rounded corners for smoothness */
+}
+
+/* Call-to-action button style */
+.hero-button {
+  display: inline-block;                 /* Allows padding and margin on the link */
+  background-color: #6f5f4e;             /* Earthy brown background */
+  color: #ffffff;                        /* White text for readability */
+  text-decoration: none;                 /* Removes underline from the link */
+  padding: 12px 24px;                    /* Adds inner spacing (top-bottom, left-right) */
+  border-radius: 25px;                   /* Rounds the button edges */
+  transition: background-color 0.3s ease;/* Smooth color change when hovered */
+}
+
+/* Button hover effect */
+.hero-button:hover {
+  background-color: #8c7b69;             /* Lighter brown shade when hovered */
+}
+
+/* Button active (clicked) effect */
+.hero-button:active {
+  background-color: #a28f7a;             /* Even lighter brown when clicked */
+}
