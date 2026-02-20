@@ -32,3 +32,15 @@ The message should appear in the confirmation message space. Add brief comments 
 Update the JavaScript and CSS to display this image as the page’s background if the user is attending: https://media.giphy.com/media/l2JHPB58MjfV8W3K0/giphy.gif
 
 The image should cover the entire background area of the body.
+
+## Firebase
+Please evaluate the JavaScript code for my Interactive Event Invite project:
+
+```
+```
+
+Your task is to add the Firebase Realtime Database to this project.
+* Save only the submitted message to the database if attendance === 'yes'.
+* All of the latest messages data needs to appear as list items in the messages list.
+
+Add detailed comments to help me understand the new Firebase code.
